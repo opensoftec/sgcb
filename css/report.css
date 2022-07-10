@@ -1,0 +1,76 @@
+@font-face {
+    font-family: SourceSansPro;
+    src: url(SourceSansPro-Regular.ttf);
+}
+
+header {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+#logo {
+    margin-top: 0;
+}
+
+#logo img {
+    height: 70px;
+}
+
+#company {
+    font-family: "Courier";
+    font-size: 7px;
+    text-align: center;
+}
+
+.justificado {
+    text-align: justify;
+    font-size: 7px;
+    background: #337ab7;
+    color: white
+}
+
+#details {
+    font-family: "Courier";
+    font-size: 9px;
+    margin-bottom: 10px;
+}
+
+#client {
+    font-size: 9px;
+    font-family: "Courier";
+    padding-left: 6px;
+    border-left: 6px solid #0087C3;
+    float: left;
+}
+
+#client .to {
+    color: #777777;
+}
+
+h2.name {
+    font-size: 12px;
+    font-family: "Courier";
+    font-weight: normal;
+    margin: 0;
+}
+
+table {
+    font-family: "Courier";
+    font-size: .7em;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black
+}
+
+table .fija{table-layout: fixed}
+
+
+
